@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.right-menu li
+{
+	display: inline-block;
+	margin-top: 30px !important;
+}
+
+.right-menu li .fa
+{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.navbar-toggler
+{
+	height: 150px;
+}
+
+.navbar-brand img
+{
+	width: 100px;
+
+}
+
+.navbar-brand
+{
+	left: 50%;
+	top: 25px;
+	transform: translateX(-50%);
+	position: absolute;
+}
+
+.header
+{
+	margin-bottom: -80px;
+}
+.navbar
+{
+	padding: 0 35px !important;
+	height: 140px;
+	background: #FFEFBA;  
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+
+}
+
+.banner-img
+{
+	margin: 80px 115px;
+	width: 60% ;
+	height:300px;
+	background-color: black;
+}
+
+.banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+}
+
+.banner
+{
+	position: relative;
+}
+
+.banner-title{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.banner-title h2
+{
+	font-size: 55px;
+	background: #0F2027; 
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	color: #fff;
+	line-height: 70px;
+	padding: 0px 10px 0 10px;
+}
+
+@media screen and (max-width: 650px)
+{
+ 
+  .banner-title
+  {
+    text-align: center;
+  }
+
+  .banner-title h2
+  {
+    font-size: 30px;
+    padding-right: 30px;
+
+  }
+
+}
+
+.beer-prod
+{
+	padding: 100px 0;
+}
+
+.beer-box
+{
+	margin: 80px 0;
+}
+
+.title-style h2
+{
+	padding: 40px 0;
+}
+
+.title-style
+{
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 80%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+
+.title-style::after
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+	
+}
+
+
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	font-family: Arial, sans-serif;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index: -1;
+	
+}
+
+.beer-img1
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img2
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img3
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img4
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img5
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img6
+{
+	position: relative;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 500px;
+	background-color: black;
+}
+
+.beer-img img
+{
+	width: 100%;
+}
+
+@media screen and (max-width: 650px)
+{
+ 
+  .beer-img1
+  {
+    background-color: pink;
+  }
+
+  .beer-img2
+  {
+    background-color: red;
+  }
+
+  .beer-img3
+  {
+    background-color: blue;
+  }
+
+  .beer-img4
+  {
+    background-color: orange;
+  }
+
+  .beer-img5
+  {
+    background-color: green;
+  }
+
+  .beer-img6
+  {
+    background-color: salmon;
+  }
+}
+
+.row
+{
+	margin: initial !important;
+}
+
+
+
+
+
+#mainFooter
+{
+	width: 300px;
+	height: 150px;
+	background-color: black;
+	margin-left: 200px;
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+#copyRight {
+	width: 200px;
+	height: 100px;
+	background-color: black;
+	margin-left: 900px;
+	padding-top: 40px;
+}
+#copyRight p {
+	color: white;
+	text-align: center;
+}
+@media screen and (max-width: 650px)
+{
+ #mainFooter
+ {
+ 	margin: auto;
+ }
+  #copyRight 
+  {
+    display: none;
+}
+
+  }
+
+
+
+
+
+
